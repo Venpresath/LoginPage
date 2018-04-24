@@ -37,8 +37,9 @@ button{
     background-color: #7dd9d5; 
     color: #d5f2f0;
     border: none;
-    margin: 12px;
+    margin: auto;
     padding: 12px 30px;
+    display: block;
 }
 
 input{
@@ -53,5 +54,12 @@ input::placeholder{
 }
 
 .rp{
-    display: inline;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.remember{
+    text-align: left;
 }
